@@ -43,7 +43,6 @@ public class Node {
 			prettyPrint(n.right, level + 1);
 		}
 	}
-
 	// Getters & Setters
 	public int getWeight() {
 		if (isLeaf())
